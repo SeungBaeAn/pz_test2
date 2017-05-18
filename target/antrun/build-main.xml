@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <echo>basedir: C:\workspace\sck</echo>
+  <echo>version: 1.0.0-BUILD-SNAPSHOT</echo>
+  <echo>project.basedir: C:\workspace\sck</echo>
+  <echo>project.baseUri: file:/C:/workspace/sck/</echo>
+  <echo>project.version: 1.0.0-BUILD-SNAPSHOT</echo>
+  <echo>project.groupId: com.sck</echo>
+  <echo>project.artifactId: sck-webapp</echo>
+  <echo>project.name: sck-webapp</echo>
+  <echo>project.description: ${project.description}</echo>
+  <echo>project.build.sourceDirectory: C:\workspace\sck\src\main\java</echo>
+  <echo>project.build.scriptSourceDirectory: C:\workspace\sck\src\main\scripts</echo>
+  <echo>project.build.testSourceDirectory: C:\workspace\sck\src\test\java</echo>
+  <echo>project.build.outputDirectory: C:\workspace\sck\src\main\webapp\WEB-INF\classes</echo>
+  <echo>project.build.testOutputDirectory: C:\workspace\sck\src\main\webapp\WEB-INF\classes</echo>
+  <echo>project.build.directory: C:\workspace\sck\target</echo>
+</target>
+</project>
