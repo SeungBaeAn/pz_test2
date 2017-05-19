@@ -56,12 +56,14 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 	}
 	
 	@Bean
+	
     public SessionRegistry sessionRegistry() 
 	{
         return new SessionRegistryImpl();
     }
 	
 	@Override
+	
 	protected void configure(HttpSecurity http) throws Exception 
 	{
 		http
